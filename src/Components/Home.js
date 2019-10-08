@@ -14,19 +14,20 @@ class Home extends Component{
                         </div>
                         <label>Accion</label>
                         <div className="form-group">
-                            <div class="custom-control custom-radio custom-control-inline">
+                            <div className="custom-control custom-radio custom-control-inline">
                                 <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" />
-                                <label class="custom-control-label" for="customRadioInline1">Recargar</label>
+                                <label className="custom-control-label" for="customRadioInline1">Recargar</label>
                             </div>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" />
-                                <label class="custom-control-label" for="customRadioInline2">Pre-Recarga</label>
+                                <label className="custom-control-label" for="customRadioInline2">Pre-Recarga</label>
                             </div>
                         </div>
                         <div className="form-group">
                             <label>Valor</label>
-                            <input class="form-control form-control-sm" type="text" />
+                            <input className="form-control form-control-sm" type="text" />
                         </div>
+                        <button type="button" className="btn btn-primary">Validar</button>
                     </form>
                 </div>
                 <div className="col-3"></div>
