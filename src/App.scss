@@ -1,0 +1,23 @@
+.App {
+  background-color: #fff;
+  height: 100%;
+  margin: 0;
+  section{
+    &.main-container{
+      min-height:  calc(100vh - 142px);
+      margin-top: 102px;
+    }
+  }
+  header{
+    nav{
+      background-color: #83ac07;
+      padding: 20px;
+    }
+  }
+  footer{
+    background-color: #83ac07 ;
+  }
+}
+
+
+
